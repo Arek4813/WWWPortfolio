@@ -1,0 +1,58 @@
+body { 
+	font-family: Arial;
+	min-width: 700px;
+	background-color: rgb(10, 10, 15);
+	color: white; }
+	
+	
+h2 { 
+	color: #4169E1; 
+	text-align: center; }
+	
+#endingformula {
+	margin: auto;
+	text-align:center;
+}
+
+.endclass {
+	margin-bottom:15px;
+}
+
+textarea.textareas {
+	width:500px;
+	height: 120px;
+}
+	
+input.send {
+	background-color: rgb(255, 160, 160);
+}
+	
+input.send:hover {
+	background-color: rgb(255, 115, 115); }
+	
+input:focus {
+	background-color: rgb(220, 220, 220); }
+	
+textarea:focus {
+	background-color: rgb(220, 220, 220); }
+	
+	
+fieldset {
+	width: 600px;
+	padding: 10px 15px; 
+	text-align: center;
+	margin: auto;}
+	
+fieldset.ind {
+	width: 360px;
+	padding: 10px 15px;
+	text-align: center; }
+		
+div.title {
+	float: right;
+	width: 50px;
+	text-align: right;
+	margin: 10px; }
+
+	
+		

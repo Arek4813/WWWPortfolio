@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Quick vote #1 - głosowanko BASKETZONE </title>
+		<link href="css/formulas.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<form action="http://www.tutajprzesyłamwynikiankiety.com/cośzphp" method="post">
+			<h2> Wybierz najbardziej wartościowego zawodnika NBA w sezonie 2018/2019 (regular season) </h2>
+			<fieldset class="ind">
+			<div>
+					<label for="username" class="ind">Pseudonim</label>
+					<input type="text" name="username" minlength="3" maxlength="10" required="required">
+			</div>
+			<br/>
+			<div>
+					<label for="mail" class="ind">Twój adres e-mail</label>
+					<input type="email" name="mail" />
+			</div>
+			</fieldset>
+			<br />
+			<fieldset>
+				<p class="testclass"> Zakres wiekowy </p>
+				<label>
+					<input type="radio" name="age" value="niepełnoletni" checked="checked" /> Niepełnoletni 
+				</label>
+				<label>
+					<input type="radio" name="age" value="19-35" /> Między 19-35 
+				</label>
+				<label>
+					<input type="radio" name="age" value="36-59" /> Między 36-59 
+				</label>
+				<label>
+					<input type="radio" name="age" value="Powyżej 60 lat" /> Powyżej 60 lat </p>
+				</label>
+				<br/>
+				<p> Wybierz najbardziej wartościowego zawodnika (MVP) w NBA w sezonie 2018/2019 </p>
+				<select class="endclass" name="mvp">
+					<option value="James Harden">James Harden</option>
+					<option value="Paul George">Paul George</option>
+					<option value="Giannis Antetokounmpo">Giannis Antetokounmpo</option>
+					<option value="Kevin Durant">Kevin Durant</option>
+				</select>
+			</fieldset>
+			<br />
+			<div id="endingformula">
+				<label>
+						<input type="checkbox" name="iseager" checked="checked" /> Wyrażam zgodę na wysyłanie mi drogą mailową powiadomień o nowych artykułach na BASKETZONE.pl
+				</label>
+					<p> Jak Ci się podoba nasza strona ? Coś jest do poprawy ? Wszystko sztosik ? Daj nam znać i bądź współtwórcą naszego rozwoju XDD </p>
+					<textarea class="textareas" placeholder="No napisałbyś coś..."/></textarea>
+				<br />
+				<br />
+					<input class="send" type="submit" value="Zakończ ankietę i prześlij wyniki" />
+			</div>
+		</form>
+	</body>
+</html>
+			
+			
+			
+		

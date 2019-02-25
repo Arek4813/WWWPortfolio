@@ -1,0 +1,16 @@
+body {
+		background-color: rgb(10, 10, 15); }
+		
+img.align-center {
+		display: block;
+		margin: 0px auto;}
+		
+img.foto {
+		width: 450px;
+		height: 340px; }
+
+img.movie {
+		width: 320px;
+		height: 220px; }
+		
+		

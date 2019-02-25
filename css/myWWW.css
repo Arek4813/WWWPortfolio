@@ -1,0 +1,167 @@
+body {
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 960px;
+	margin: 20px;
+}
+
+#logo {
+	float:left;
+	font-size: 60px;
+	width: 780px;
+	text-align:left;
+}
+
+#clock {
+	float:left;
+	font-size: 60px;
+	text-align:center;
+}
+
+
+#footer {
+	width: 960px;
+	padding-top: 30px;
+	clear: both;
+	text-align:center;
+}
+
+.description {
+	margin-top: 20px;
+	width: 480px;
+	float:left;
+	background-color: #aaaf70;
+	height:400px;
+	padding: 10px;
+	font-size: 19px;
+	text-align: justify;
+}
+
+.square {
+	width: 480px;
+	float: left;
+	height:400px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+#bvsketbvll {
+	height:235px;
+	width: 480px;
+	margin-bottom:10px;
+	background-color: white;
+}	
+
+#pagename{
+	color: black;
+	font-size: 70px;
+	text-align:center;
+	float: left;
+	width: 290px;
+	position: relative; top: 60px; left: 20px;	
+}
+
+#jordan {
+	position: relative; top: 40px; left: 10px; 
+}
+
+
+.gallery {
+	width: 400px;
+	height: 180px; 
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:20px;	
+}
+	
+#fota {
+	width: 100%;
+	height: 100%; 
+}
+
+.gallery .link {
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 37px;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	background-color:#111;
+	transition: opacity 0.4s ease-in-out;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom:15px;
+}
+
+.gallery:hover .link {
+	opacity: 0.85;
+}
+	
+
+.in {
+	width: 112px;
+	height: 175px;
+	background-color: #3080ba;
+	float:left;
+	margin-right:10px;
+}
+
+.git {
+	width: 113px;
+	height: 175px;
+	background-color: #191b1e;
+	float:left;
+	margin-right:10px;
+}
+
+a.link {
+	color: #ffffff;
+	text-decoration:none;
+}
+	
+
+.fb {
+	width: 112px;
+	height: 175px;
+	background-color: #164499;
+	float:left;
+	margin-right:10px;
+}
+
+.ig {
+	width: 113px;
+	height: 175px;
+	background-color: #f4b3f9;
+	float:left;
+}
+
+.in:hover {
+	background-color: #2070a9;
+}
+
+.fb:hover {
+	background-color: #053388;
+}
+
+.git:hover {
+	background-color: #080a0d;
+}
+
+.ig:hover {
+	background-color: #e3a2e8;
+}
+
